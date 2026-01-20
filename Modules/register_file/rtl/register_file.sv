@@ -30,8 +30,18 @@ module register_file (
     end
 
     always_comb begin : read
-        rdata1_o = rx[raddr1_i];
-        rdata2_o = rx[raddr2_i];
+        // Read Port 1
+        if ((we_i == 1) && (waddr_i != 0) && (waddr_i == raddr1_i)) begin
+            rdata1_o = wdata_i;
+        end else begin
+            rdata1_o = rx[raddr1_i];
+        end
+        // Read Port 2
+        if ((we_i == 1) && (waddr_i != 0) && (waddr_i == raddr2_i)) begin
+            rdata2_o = wdata_i;
+        end else begin
+            rdata2_o = rx[raddr2_i];
+        end
     end
 
 endmodule

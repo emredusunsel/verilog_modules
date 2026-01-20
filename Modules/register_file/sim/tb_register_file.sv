@@ -82,6 +82,16 @@ module tb_register_file;
         rst_ni = 1;
         @(posedge clk_i);
         @(posedge clk_i);
+        // Same-cycle write + read test
+        we_i     = 1;
+        waddr_i  = 5;
+        wdata_i  = 32'hCAFE_BABE;
+        raddr1_i = 5;
+
+        #1;
+        assert(rdata1_o == 32'hCAFE_BABE);
+        #50;
+
         $finish;
     end
 

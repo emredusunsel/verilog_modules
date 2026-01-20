@@ -16,25 +16,6 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 
 ## 🟢 Basic Modules
 
-### ⬜ Parametric ALU
-- [ ] Support ADD, SUB, AND, OR, XOR, SLT operations
-- [ ] Parameterized data width (default: 32-bit)
-- [ ] Zero, Carry, Overflow flags
-- [ ] Signed & unsigned operation support
-- [ ] Self-checking testbench with random vectors
-
----
-
-### ⬜ Register File (RISC-style)
-- [ ] 32 registers, parameterized width
-- [ ] 2 read ports, 1 write port
-- [ ] Synchronous write, combinational read
-- [ ] Register x0 hardwired to zero
-- [ ] Reset behavior clearly defined
-- [ ] Testbench validating read/write hazards
-
----
-
 ### ⬜ UART Transmitter & Receiver
 - [ ] Configurable baud rate generator
 - [ ] UART TX module
