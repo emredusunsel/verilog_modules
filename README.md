@@ -107,3 +107,10 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 - Simulation tested using Icarus Verilog / Verilator
 
 ---
+
+##  Testbench and Simulation
+
+### Learn and Use
+- [ ] Assertion
+
+---
