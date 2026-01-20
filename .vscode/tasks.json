@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Lint Verilog with Verilator (WSL)",
+      "type": "shell",
+      "command": "wsl",
+      "args": [
+        "bash",
+        "-c",
+       // "verilator --lint-only --Wall /mnt/d/Verilog/verilog_modules/Tasks/boron/pkg/*boron_pkg.sv /mnt/d/Verilog/verilog_modules/Tasks/boron/rtl/*.sv 2>&1 | tee /mnt/d/Verilog/verilog_modules/Tasks/boron/lint_report.txt"
+       // "verilator --lint-only --Wall /mnt/d/Verilog/verilog_modules/RV32I/pkg/*riscv_pkg.sv /mnt/d/Verilog/verilog_modules/RV32I/rtl/*.sv 2>&1 | tee /mnt/d/Verilog/verilog_modules/RV32I/lint_report.txt"
+        "verilator --lint-only --Wall /mnt/d/Verilog/verilog_modules/Tasks/RV32I/pkg/*riscv_pkg.sv /mnt/d/Verilog/verilog_modules/Tasks/RV32I/rtl/*.sv 2>&1 | tee /mnt/d/Verilog/verilog_modules/Tasks/RV32I/lint_report.txt"
+      ],
+      "group": "build",
+      "problemMatcher": {
+        "owner": "verilator",
+        "fileLocation": ["absolute"],
+        "pattern": {
+          "regexp": "^(%Warning|%Error): (.*?):(\\d+): (.*)$",
+          "file": 2,
+          "line": 3,
+          "message": 4
+        }
+      }
+    }
+  ]
+}
