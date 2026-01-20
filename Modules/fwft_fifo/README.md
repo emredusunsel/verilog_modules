@@ -1,0 +1,1 @@
+Simultaneous read/write when depth=1 assumes stable memory read behavior.

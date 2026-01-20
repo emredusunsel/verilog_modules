@@ -47,16 +47,6 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 
 ---
 
-### ⬜ FIFO Buffer
-- [ ] Parameterized depth and data width
-- [ ] Synchronous FIFO implementation
-- [ ] Full / Empty flag logic
-- [ ] Asynchronous FIFO version
-- [ ] Gray code pointer synchronization
-- [ ] Stress-tested with random push/pop
-
----
-
 ## 🔴 Advanced Modules
 
 ### ⬜ Mini RISC-V CPU (5-Stage Pipeline)
@@ -88,6 +78,14 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 - [ ] Behavioral SDRAM model for simulation
 
 ---
+
+### ADDITIONAL
+
+- [ ] FWFT FIFO (data_o combinational)
+- [ ] Async FIFO (Gray code + CDC)
+- [ ] FIFO + coverage + assertions
+- [ ] Skid buffer / elastic buffer
+- [ ] Fully pipelined register file
 
 ## 🧪 Verification & Infrastructure
 
