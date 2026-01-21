@@ -81,11 +81,26 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 
 ### ADDITIONAL
 
-- [ ] FWFT FIFO (data_o combinational)
 - [ ] Async FIFO (Gray code + CDC)
 - [ ] FIFO + coverage + assertions
 - [ ] Skid buffer / elastic buffer
 - [ ] Fully pipelined register file
+
+## Planned Modules
+
+- [ ] async_fifo (gray code + CDC)
+- [ ] axi_stream_fifo
+- [ ] fsm_controller (parametric)
+- [ ] bus_arbiter (round-robin / priority)
+- [ ] instruction_decoder (RISC-V lite)
+- [ ] pipeline_register (stall / flush)
+- [ ] skid_buffer
+- [ ] barrel_shifter
+- [ ] iterative_multiplier **--(DONE)--**
+    - [ ] signed Booth version
+- [ ] uart_tx_rx
+- [ ] timer_interrupt
+- [ ] self_checking_testbench
 
 ## 🧪 Verification & Infrastructure
 
