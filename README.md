@@ -92,7 +92,7 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 - [ ] axi_stream_fifo
 - [ ] fsm_controller (parametric)
 - [ ] bus_arbiter (round-robin / priority)
-- [ ] instruction_decoder (RISC-V lite)
+- [ ] instruction_decoder (RISC-V lite) **--(DONE)--**
 - [ ] pipeline_register (stall / flush)
 - [ ] skid_buffer
 - [ ] barrel_shifter
