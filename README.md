@@ -117,7 +117,6 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 - [ ] popcount
 - [ ] reset_synchronizer
 - [ ] pulse_synchronizer
-- [ ] clock_divider_glitch_free ++
 - [ ] write_mask_generator
 - [ ] address_aligner ++
 - [ ] read_data_formatter
