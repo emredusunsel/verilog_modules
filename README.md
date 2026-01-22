@@ -102,6 +102,32 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 - [ ] timer_interrupt
 - [ ] self_checking_testbench
 
+## Reusable Parametric Building Blocks
+
+- [ ] register_slice (valid/ready)
+- [ ] elastic_buffer
+- [ ] skid_buffer
+- [ ] transaction_counter
+- [ ] fsm_timeout_watchdog
+- [ ] event_flag_latch
+- [ ] onehot_to_binary ++
+- [ ] priority_encoder
+- [ ] comparator ++
+- [ ] saturating_adder
+- [ ] popcount
+- [ ] reset_synchronizer
+- [ ] pulse_synchronizer
+- [ ] clock_divider_glitch_free ++
+- [ ] write_mask_generator
+- [ ] address_aligner ++
+- [ ] read_data_formatter
+- [ ] parity_checker
+- [ ] crc_generator
+- [ ] illegal_state_detector
+- [ ] cycle_counter
+- [ ] trace_trigger
+- [ ] sticky_error_reg
+
 ## 🧪 Verification & Infrastructure
 
 ### ⬜ Common Testbench Framework
