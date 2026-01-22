@@ -112,7 +112,6 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 - [ ] event_flag_latch
 - [ ] priority_encoder
 - [ ] binary_to_onehot ++
-- [ ] comparator ++
 - [ ] saturating_adder
 - [ ] popcount
 - [ ] reset_synchronizer
