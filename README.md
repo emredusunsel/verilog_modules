@@ -110,8 +110,8 @@ Each module is designed to be **parameterizable**, **well-tested**, and **produc
 - [ ] transaction_counter
 - [ ] fsm_timeout_watchdog
 - [ ] event_flag_latch
-- [ ] onehot_to_binary ++
 - [ ] priority_encoder
+- [ ] binary_to_onehot ++
 - [ ] comparator ++
 - [ ] saturating_adder
 - [ ] popcount
